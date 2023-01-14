@@ -12,9 +12,9 @@ public class ItemView extends Item {
     private String m_file;
     private String m_Nickname;
 
-    public ItemView(int pid, String title, String content, Date regDate, int price, String Category, int interest,
-                    String mid, String m_file, String m_Nickname, String m_place, String state, String files) {
-        super(pid, title, content, regDate, price, Category, interest, mid, m_place, state, files);
+    public ItemView(int pid, String title, String content, Date regDate, int price, String category, int interest,
+                    String mid, String m_file, String m_Nickname, String state) {
+        super(pid, title, content, regDate, price, category, interest, mid, state);
         this.m_file = m_file;
         this.m_Nickname = m_Nickname;
     }
