@@ -1,4 +1,4 @@
 package com.dohyun.carrotback.image;
 
-public interface ImageController {
+public class ImageController {
 }
